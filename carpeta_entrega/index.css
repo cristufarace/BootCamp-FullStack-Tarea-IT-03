@@ -1,0 +1,12 @@
+img {width: 100%;}
+* {color: #77554D; font-family: sans-serif; }
+p b{ font-family: Arial;}
+h1, h3 {font-family: Verdana}
+li a, nav a{font-weight: bold;}
+h3 {color: white; background: #77554D ;}
+li a {color: orangered;}
+nav a {color: orangered; font-size: 25px; font-weight: bold;}
+li {line-height: 4px;} 
+.elegirnos {color: hsl(60, 98%, 43%);}
+.laNacion {color: rgb(0, 162, 255)}
+.pagina12{color: red;}
