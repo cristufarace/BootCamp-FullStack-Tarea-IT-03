@@ -9,8 +9,6 @@ body {
   color: #775548;
 }
 
-p b{ font-family: Arial;}
-h1, h3 {font-family: Verdana}
 li a, nav a{font-weight: bold;}
 h3 {color: white; background: #77554D ;}
 li a {color: orangered;}
