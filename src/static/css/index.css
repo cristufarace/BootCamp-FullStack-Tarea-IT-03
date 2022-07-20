@@ -1,5 +1,14 @@
-img {width: 100%;}
-* {color: #77554D; font-family: sans-serif; }
+
+/* Ahora la imagen es responsive */
+img {
+  width: 100%;
+}
+
+body {
+  font-family: Verdana, Arial, sans-serif;
+  color: #775548;
+}
+
 p b{ font-family: Arial;}
 h1, h3 {font-family: Verdana}
 li a, nav a{font-weight: bold;}
