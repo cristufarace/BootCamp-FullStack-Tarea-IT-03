@@ -1,3 +1,18 @@
+/* Aqui va la paleta de colores */
+:root {
+  --color-fondo: #fff;
+
+  --color-primario: #775548;
+  --color-en-primario: #fff;
+
+  --color-secundario: #d8b03b;
+
+  --color-link-resaltado: #ef6d24;
+
+  /* Colores extraidos desde los sitios oficiales */
+  --color-la-nacion: #006998;
+  --color-pagina12: #8d0000;
+}
 
 /* Ahora la imagen es responsive */
 img {
@@ -6,14 +21,40 @@ img {
 
 body {
   font-family: Verdana, Arial, sans-serif;
-  color: #775548;
+  color: var(--color-primario);
 }
 
-li a, nav a{font-weight: bold;}
-h3 {color: white; background: #77554D ;}
-li a {color: orangered;}
-nav a {color: orangered; font-size: 25px; font-weight: bold;}
-li {line-height: 4px;} 
-.elegirnos {color: hsl(60, 98%, 43%);}
-.laNacion {color: rgb(0, 162, 255)}
-.pagina12{color: red;}
+li a, nav a{
+  font-weight: bold;
+}
+
+h3 {
+  color: var(--color-en-primario); 
+  background: var(--color-primario);
+}
+
+li a {
+  color: var(--color-link-resaltado);
+}
+
+nav a {
+  color: var(--color-link-resaltado); 
+  font-size: 25px; 
+  font-weight: bold;
+}
+
+li {
+  line-height: 4px;
+}
+
+.elegirnos {
+  color: var(--color-secundario);
+}
+
+.laNacion {
+  color: var(--color-la-nacion);
+}
+
+.pagina12{
+  color: var(--color-pagina12);
+}
