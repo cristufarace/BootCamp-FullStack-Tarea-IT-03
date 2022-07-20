@@ -24,7 +24,7 @@ body {
 }
 
 nav a {
-  font-size: 25px; 
+  font-size: 20px; 
 }
 
 a {
@@ -32,9 +32,11 @@ a {
   color: var(--color-link);
 }
 
-h3 {
+h2 {
   color: var(--color-en-primario); 
   background: var(--color-primario);
+
+  font-size: 18px;
 }
 
 .elegirnos {
