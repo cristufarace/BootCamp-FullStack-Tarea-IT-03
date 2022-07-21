@@ -1,0 +1,9 @@
+{
+  "exerciseNumber": 3,
+  "authors": [
+    "Cristian Farace", "Maximiliano Santamaria"
+  ],
+
+  "srcDir": "./src",
+  "dstDir": "./release"
+}
